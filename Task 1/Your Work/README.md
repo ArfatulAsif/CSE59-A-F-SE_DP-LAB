@@ -211,6 +211,8 @@ EduTrack is a standalone web application integrating with external services such
 ## 4. System Models
 
 
+### Context diagram 
+
 
 ## 5. System Evolution
 
