@@ -212,6 +212,7 @@ EduTrack is a standalone web application integrating with external services such
 
 
 ### Context diagram 
+<img width="3078" height="766" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/9c79b992-0b95-44ef-8979-556fa9a2f662" />
 
 
 ## 5. System Evolution
