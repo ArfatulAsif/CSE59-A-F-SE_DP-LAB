@@ -316,33 +316,33 @@ Portability
 ------------------------------------------------------------
 
 CONTEXT DIAGRAM
-<img src="images/context-diagram.png">
+<img src="images/Context-diagram.jpg">
 
 ------------------------------------------------------------
 ACTIVITY DIAGRAM
 ------------------------------------------------------------
-<img src="images/activity-diagram.png">
+<img src="images/ACTIVITY-Diagram.jpg">
 
 ------------------------------------------------------------
 USE CASE DIAGRAMS
 ------------------------------------------------------------
-<img src="images/case-diagram.png">
+<img src="images/CASE-Diagram.jpg">
 
 ------------------------------------------------------------
 SEQUENCE DIAGRAM
 ------------------------------------------------------------
-<img src="images/sequence-diagram.png">
+<img src="images/SEQUENCE-Diagram.jpg">
 
 ------------------------------------------------------------
 ENTITY-RELATIONSHIP DIAGRAM
 ------------------------------------------------------------
-<img src="images/entity-diagram.png">
+<img src="images/Entity-diagram.jpg">
 
 ------------------------------------------------------------
 STATE DIAGRAM
 ------------------------------------------------------------
 
-<img src="images/state-diagram.png">
+<img src="images/State-diagram.jpg">
 ------------------------------------------------------------
 5. SYSTEM EVOLUTION
 ------------------------------------------------------------
