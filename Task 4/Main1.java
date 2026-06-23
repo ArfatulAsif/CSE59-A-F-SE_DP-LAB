@@ -21,7 +21,7 @@ class Rectangle implements Shape {
 class Circle implements Shape {
     double radius;
     
-    public Cirlce(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
     
@@ -32,7 +32,7 @@ class Circle implements Shape {
     }
 }
 
-class Truangle implements Shape {
+class Triangle implements Shape {
     double base,height;
     
     public Triangle(double base,double height) {
@@ -42,7 +42,32 @@ class Truangle implements Shape {
     }
     
     @Override 
-    public calculateArea() {
-        reuturn 0.5* base * height;
+    public double calculateArea() {
+        return 0.5* base * height;
+    }
+}
+
+class AreaCalculator {
+    public double calculateTotalArea(Shape[]shapes) {
+        double totalArea = 0;
+        
+        for(Shape shape : shapes) {
+            totalArea += shape.calculateArea();
+            
+        }
+        return totalArea;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape[] shapes = {
+            new Rectangle(5,4),
+            new Circle(3),
+            new Triangle(6,4)
+            
+        };
+        AreaCalculator calculator = new AreaCalculator();
+        System.out.println("Total Area = " + calculator.calculateTotalArea(shapes));
     }
 }
