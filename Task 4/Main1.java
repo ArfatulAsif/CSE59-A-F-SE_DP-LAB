@@ -1,1 +1,57 @@
 
+interface Shape {
+    double calculateArea();
+}
+
+class Rectangle implements Shape {
+    double length;
+    double width;
+
+    Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+  
+    public double calculateArea() {
+        return length * width;
+    }
+}
+
+class Circle implements Shape {
+    double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class AreaCalculator {
+    public double calculateTotalArea(Shape[] shapes) {
+        double area = 0;
+
+        for (Shape shape : shapes) {
+            area += shape.calculateArea();
+        }
+
+        return area;
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        Shape[] shapes = {
+            new Rectangle(5, 4),
+            new Circle(3)
+        };
+
+        AreaCalculator calculator = new AreaCalculator();
+
+        System.out.println("Total Area: " + calculator.calculateTotalArea(shapes));
+    }
+}
